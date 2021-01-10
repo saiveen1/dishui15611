@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="namedPipe">
+      <UniqueIdentifier>{ba73d3cd-dd0f-47ba-8382-4aa7336c71a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="namedPipe\Server">
+      <UniqueIdentifier>{4f63d611-1699-46cd-b9c4-b036aee71654}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="namedPipe\Client">
+      <UniqueIdentifier>{8a0603b8-655a-44fa-9590-a7f638e84022}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="githubInject">
+      <UniqueIdentifier>{ff532df9-4209-4e21-b733-d9ae910a85d3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="helpers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hook.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="injector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pe.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="process.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="utilsDll.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pipeMsg.h">
+      <Filter>namedPipe</Filter>
+    </ClInclude>
+    <ClInclude Include="HookFunc.h">
+      <Filter>namedPipe</Filter>
+    </ClInclude>
+    <ClInclude Include="HandleGateWayClient.h">
+      <Filter>namedPipe\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="HandleGateWayServer.h">
+      <Filter>namedPipe\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="InjectDll.h">
+      <Filter>githubInject</Filter>
+    </ClInclude>
+    <ClInclude Include="loaders.h">
+      <Filter>githubInject</Filter>
+    </ClInclude>
+    <ClInclude Include="InjectWow64toNative64d.h">
+      <Filter>githubInject</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="hook.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="injector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pe.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="process.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="utilsDll.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HookFunc.cpp">
+      <Filter>namedPipe</Filter>
+    </ClCompile>
+    <ClCompile Include="HandleGateWayClient.cpp">
+      <Filter>namedPipe\Client</Filter>
+    </ClCompile>
+    <ClCompile Include="HandleGateWayServer.cpp">
+      <Filter>namedPipe\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="fileutils.cpp">
+      <Filter>githubInject</Filter>
+    </ClCompile>
+    <ClCompile Include="InjectDll.cpp">
+      <Filter>githubInject</Filter>
+    </ClCompile>
+    <ClCompile Include="processG.cpp">
+      <Filter>githubInject</Filter>
+    </ClCompile>
+    <ClCompile Include="wow64.cpp">
+      <Filter>githubInject</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
